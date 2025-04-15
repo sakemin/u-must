@@ -1,4 +1,4 @@
 # Unified Music Translation between Score Images, MusicXML, MIDI, and Audio
-## Jongmin Jung^1^, Dongmin Kim^1^, Sihun Lee^1^, Seola Cho^2^, Hyungjoon Soh^3^, Irmak Bukey^4^, Chris Donahue^4^ and Dasaem Jeong^2^
-### ^1^Department of Artificial Intelligence, Sogang University, Seoul, Republic of Korea, ^2^Department of Art & Technology, Sogang University, Seoul, Republic of Korea
-### ^3^Department of Physics Education, Seoul National University, Seoul, Republic of Korea, ^4^Computer Science Department, Carnegie Mellon University, Pittsburgh, United States
+## Jongmin Jung<sup>1</sub>, Dongmin Kim<sup>1</sub>, Sihun Lee<sup>1</sub>, Seola Cho<sup>2</sub>, Hyungjoon Soh<sup>3</sub>, Irmak Bukey<sup>4</sub>, Chris Donahue<sup>4</sub> and Dasaem Jeong<sup>2</sub>
+### <sup>1</sub>Department of Artificial Intelligence, Sogang University, Seoul, Republic of Korea, <sup>2</sub>Department of Art & Technology, Sogang University, Seoul, Republic of Korea
+### <sup>3</sub>Department of Physics Education, Seoul National University, Seoul, Republic of Korea, <sup>4</sub>Computer Science Department, Carnegie Mellon University, Pittsburgh, United States
