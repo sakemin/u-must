@@ -27,9 +27,9 @@
   <div id="figure-wrapper_full">
     <img src="umut-model.png"/>
   </div>
-
-  <hr>
-    
+  <p>
+    Overview of our proposed unified multimodal translation framework. We employ a single Transformer encoder-decoder model for each direction---one for \textit{Image-to-Audio direction} (I2A) tasks and another for \textit{Audio-to-Image direction} (A2I) tasks. Each model jointly handles multiple translation tasks. All modalities are discretised into token sequences, enabling end-to-end, multitask training entirely at the token level. Importantly, multitask training leads to synergistic improvements across tasks, rather than degrading performance. Note that we train separate models for I2A and A2I directions; the two directions do not share weights.
+  </p>
   <hr>
   <h2>Model Structure</h2>
   <div id="figure-wrapper_full">
