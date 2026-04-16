@@ -7,11 +7,36 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <style>
+        .button-group {
+            display: flex;
+            justify-content: center; /* 버튼 중앙 정렬 */
+            flex-wrap: wrap;
+            gap: 15px; /* 버튼 사이 간격 */
+            margin: 30px 0; /* 위아래 여백 */
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #4a4a4a;
+        }
+    </style>
 </head>
 <body>
 
 <div class="page-wrapper">
-  <h1>Unified Cross-modal Translation of Score Images, Symbolic Music, and Performance Audio</h1>
+  <h1>U-MusT: A Unified Framework for Cross-Modal Translation of Score Images, Symbolic Music, and Performance Audio</h1>
 
   <p id="authors">Jongmin Jung<sup>1</sup>, Dongmin Kim<sup>1</sup>, Sihun Lee<sup>1</sup>, Seola Cho<sup>2</sup>, Hyungjoon Soh<sup>3</sup>, Irmak Bukey<sup>4</sup>, Chris Donahue<sup>4</sup>, Dasaem Jeong<sup>2</sup></p>
   <p id="affiliation"><sup>1</sup>Department of Artificial Intelligence, Sogang University, Seoul, Republic of Korea, <sup>2</sup>Department of Art & Technology, Sogang University, Seoul, Republic of Korea<br>
@@ -21,6 +46,12 @@
   <p>
     Music exists in various modalities, such as score images, symbolic scores, MIDI, and audio. Translations between each modality are established as core tasks of music information retrieval, such as automatic music transcription (audio-to-MIDI) and optical music recognition (score image to symbolic score). However, most past work on multimodal translation trains specialized models on individual translation tasks. Here, we propose a unified approach, where we train a general-purpose model on many translation tasks simultaneously. The viability of this approach is enabled by our newly presented 1,300 hours of paired audio-score image data collected from YouTube videos, which is an order of magnitude larger than any existing music modal translation datasets. By tokenizing continuous modalities like score images and audio using discrete autoencoders, we treat modal translation between images, music notation, MIDI, and audio as a discrete seq2seq problem and train a single encoder-decoder Transformer model. Our experimental results demonstrate that a unified model trained on multiple translation tasks outperforms task-specific models. Notably, our approach achieves the first successful score-image-conditioned audio generation, marking a significant breakthrough in cross-modal music generation. Additionally, our model achieves state-of-the-art performance in optical music recognition, showing the effectiveness of our unified framework.
   </p>
+
+  <div class="button-group">
+      <a href="https://arxiv.org/abs/2505.12863" class="btn" target="_blank" rel="noopener noreferrer">arXiv Preprint</a>
+      <a href="https://ieeexplore.ieee.org/document/11316398/" class="btn" target="_blank" rel="noopener noreferrer">IEEE TASLP Paper</a>
+      <a href="https://github.com/MALerLab/U-MusT" class="btn" target="_blank" rel="noopener noreferrer">Code</a>
+  </div>
 
   <hr>
   <h2>Model Directions</h2>
